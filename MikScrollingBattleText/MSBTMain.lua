@@ -68,6 +68,7 @@ local DAMAGETYPE_NATURE = 0x8
 local DAMAGETYPE_FROST = 0x10
 local DAMAGETYPE_SHADOW = 0x20
 local DAMAGETYPE_ARCANE = 0x40
+-- local DAMAGETYPE_CHAOS = 0x80
 
 -- Physical + Magic Damage types.
 local DAMAGETYPE_HOLYSTRIKE = DAMAGETYPE_PHYSICAL + DAMAGETYPE_HOLY
@@ -213,6 +214,7 @@ local function CreateDamageMaps()
 	damageColorProfileEntries[DAMAGETYPE_ARCANE] = "arcane"
 	damageColorProfileEntries[DAMAGETYPE_FROSTFIRE] = "frostfire"
 	damageColorProfileEntries[DAMAGETYPE_SHADOWFLAME] = "shadowflame"
+	damageColorProfileEntries[DAMAGETYPE_CHAOS] = "chaos"
 end
 
 
